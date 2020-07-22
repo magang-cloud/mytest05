@@ -1,8 +1,11 @@
 package com.itheima;
 
+import java.util.Date;
+
 public class User {
     private String username;
     private Integer age;
+    private Date birthday;
 
     public String getUsername() {
         return username;
@@ -18,5 +21,14 @@ public class User {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", age=" + age +
+                ", birthday=" + birthday +
+                '}';
     }
 }
