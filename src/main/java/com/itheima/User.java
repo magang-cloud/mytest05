@@ -6,6 +6,25 @@ public class User {
     private String username;
     private Integer age;
     private Date birthday;
+    private String error;
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
+        this.sex = sex;
+    }
+
+    private char sex;
 
     public String getUsername() {
         return username;
