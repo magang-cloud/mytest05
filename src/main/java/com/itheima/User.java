@@ -6,6 +6,7 @@ public class User {
     private String username;
     private Integer age;
     private Date birthday;
+    private String error;
 
     public Date getBirthday() {
         return birthday;
